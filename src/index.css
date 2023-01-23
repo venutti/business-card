@@ -130,3 +130,7 @@ img {
   width: 25px;
   cursor: pointer;
 }
+
+.footer--icon:hover {
+  transform: scale(0.9);
+}
