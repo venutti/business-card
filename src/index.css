@@ -88,3 +88,45 @@ img {
   background-color: #5093e2;
   color: #ffffff;
 }
+
+.about--container {
+  padding: 10px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.about--title {
+  color: #f5f5f5;
+  font-size: 16px;
+}
+
+.about--text {
+  color: #dcdcdc;
+  font-size: 11px;
+  line-height: 150%;
+  margin-top: 5px;
+}
+
+.footer {
+  background-color: #161619;
+  margin-top: 20px;
+  padding: 20px;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+.footer--links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footer--icon {
+  display: block;
+  width: 25px;
+  cursor: pointer;
+}
