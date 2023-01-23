@@ -1,4 +1,90 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  color: #ffffff;
+  background-color: #1a1b21;
+  border-radius: 10px;
+  max-width: 315px;
+}
+
+.info {
+  text-align: center;
+}
+
+.info,
+.info--img {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.info--container {
+  padding: 20px 35px;
+}
+
+.info--name {
+  font-size: 25px;
+}
+
+.info--position {
+  color: #f3bf99;
+  font-weight: 400;
+  font-size: 13px;
+  margin: 3px 0 6px 0;
+}
+
+.info--website {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 11px;
+}
+
+.info--website:hover {
+  color: #f3bf99;
+}
+
+.info--buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 17px;
+}
+
+.info--buttons button {
+  flex: 1;
+  padding: 9px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.info--buttons button:hover {
+  filter: brightness(0.7);
+}
+
+.info--buttons .info--icon_sm {
+  width: 15px;
+}
+
+.info--email {
+  background-color: #ffffff;
+  color: #374151;
+}
+
+.info--linkedin {
+  background-color: #5093e2;
+  color: #ffffff;
 }
